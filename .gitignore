@@ -24,3 +24,4 @@ __pycache__/
 
 #model
 clickbait_model/
+pegasus/

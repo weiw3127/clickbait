@@ -4,7 +4,7 @@ import torch
 
 
 class TitleGenerator:
-    def __init__(self, model_dir: str = "data/clickbait_model", device: str = None):
+    def __init__(self, model_dir: str = "/clickbait_model", device: str = None):
         self.tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True)
         self.model = AutoModelForSeq2SeqLM.from_pretrained(model_dir)
         if device is None:

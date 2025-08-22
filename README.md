@@ -87,3 +87,31 @@ python scripts/generate.py --article "Long article text..."
 + Bias & Style: reflects sensationalism typical of the source.
 
 + Use Cases: not for factual reporting, but good as a demo of fine-tuning seq2seq models.
+
+## Citation
+
+If you use this model, please cite the repository:
+
+```bibtex
+@software {wei_clickbait_generator_2025,
+  author       = {Wei-Ling, W.},
+  title        = {Clickbait Title Generator},
+  month        = aug,
+  year         = 2025,
+  publisher    = {GitHub},
+  url          = {https://github.com/weiw3127/clickbait},
+  note         = {Fine-tuned BART model for clickbait headline generation.}
+}
+```
+
+**Model**
+```bibtex
+@misc {clickbaitbart2025,
+  author = {Wei-Ling, W.},
+  title = {Clickbait BART (DailyMail Fine-tune)},
+  year = {2025},
+  publisher = {Hugging Face},
+  howpublished = {\url{https://huggingface.co/bwlw3127/clickbait-bart-dailymail}}
+}
+```
+
